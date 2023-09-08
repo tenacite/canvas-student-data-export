@@ -1,7 +1,7 @@
 from subprocess import run
 
 SINGLEFILE_BINARY_PATH = "./node_modules/single-file/cli/single-file"
-CHROME_PATH = "C:/Program Files/Google\ Chrome/Application/chrome.exe" #Uncomment this and set your browser exe if it can't find yours.
+CHROME_PATH = "C:/Program Files/Google/Chrome/Application/chrome.exe" #Uncomment this and set your browser exe if it can't find yours.
 
 def addQuotes(str):
     return "\"" + str.strip("\"") + "\""
